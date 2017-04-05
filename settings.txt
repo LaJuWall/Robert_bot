@@ -1,0 +1,19 @@
+# Every line that starts with # are ment for comments and will be ignored by the software
+# The following values are:
+# CHN = Channel were the software connects. example #lazu_ or #vargskelethor
+# MOD = Colecting mode. This value uses only K or Q. K stands for keyword mode, where the software picks up suggestions if they follow a certain keyword and Q is for quote mode, where the software picks up suggestions in quotes.
+# KWD = keyword. The keyword you want the software to recognize while using the keyword mode. ONLY USE ASCII CHARACTERS IN YOUR KEYWORD!!!
+# MES = Use start and end messages. This value takes Y or N (Yes or No). If it's Y, the software will send messages to chat when it starts or stops collecting suggestions.
+# SME = Starting message. This is the message that the software will send to chat when it starts collecting suggestions. the %s stands for the spot where the collecting time (in seconds) will be shown.
+# EME = Ending message. This is the message that the software will send to chat when it stops collecting suggestions.
+# FIL = Filters. Every line under this is meant for suggestions that will bw filtered from the results. Write them all in lowercase.
+CHN:#lazu_
+MOD:Q
+KWD:name
+MES:Y
+SME:Dead or alive, your suggestions are coming with me! Post your suggestion in "quotes" within %s seconds.
+EME:I'm done collecting your suggestions... I'll be back
+FIL:
+bonzi
+bonzi buddy
+skeletor
